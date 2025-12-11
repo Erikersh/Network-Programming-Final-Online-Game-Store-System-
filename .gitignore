@@ -1,0 +1,8 @@
+server_app
+dev_app
+player_app
+
+*.o
+
+.DS_Store
+Thumbs.db

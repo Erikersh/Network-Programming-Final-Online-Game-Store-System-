@@ -1,0 +1,52 @@
+{
+    "games": [
+        {
+            "comments": [
+                {
+                    "content": "Very Fun to Play!",
+                    "score": 5,
+                    "user": "Erik"
+                },
+                {
+                    "content": "Very boring...",
+                    "score": 1,
+                    "user": "David"
+                }
+            ],
+            "description": "A simple but funny Tic-Tac-Toe game!",
+            "dev": "dev_Erik",
+            "downloaded_by": [
+                "Erik",
+                "David"
+            ],
+            "filename": "myTicTacToe.py",
+            "game_type": "GUI",
+            "max_players": 2,
+            "name": "Tic-Tac-Toe",
+            "version": "1.0"
+        }
+    ],
+    "users": [
+        {
+            "password": "David1234",
+            "play_history": [
+                "Tic-Tac-Toe"
+            ],
+            "role": "player",
+            "username": "David"
+        },
+        {
+            "password": "Erik1024",
+            "role": "developer",
+            "username": "dev_Erik"
+        },
+        {
+            "password": "Erik1024",
+            "play_history": [
+                "Tic-Tac-Toe"
+            ],
+            "role": "player",
+            "username": "Erik"
+        }
+    ]
+}
