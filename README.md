@@ -66,6 +66,29 @@ make
 
 -----
 
+---
+
+## 預設測試資料
+
+為了方便快速理解與驗收，系統資料庫 (`database.json`) 已預先載入以下帳號與遊戲資料。您可以直接使用這些帳號登入，無需重新註冊。
+
+### 1. 預設帳號
+
+| Role (身份) | Username (帳號) | Password (密碼) | 備註 |
+| :--- | :--- | :--- | :--- |
+| **Developer** | `dev_Erik` | `Erik1024` | 已上架一款 Tic-Tac-Toe 遊戲 |
+| **Player** | `Erik` | `Erik1024` | 已下載並評分過 (5分) |
+| **Player** | `David` | `David1234` | 已下載並評分過 (1分) |
+
+### 2. 預設上架遊戲
+
+* **Game Name**: `Tic-Tac-Toe`
+* **Version**: `1.0`
+* **Current Rating**: `3.0` (由 Erik 的 5 分與 David 的 1 分平均而來)
+* **Downloads**: `2` (Erik 與 David)
+
+---
+
 ## 開發者指南
 
 開發者負責設計遊戲、測試並將其發布到商城。
@@ -142,30 +165,6 @@ make
 4.  **結算**: 遊戲結束後顯示勝負結果與總步數。按 Enter 關閉視窗回到大廳。
 
 -----
-
----
-
-## 預設測試資料
-
-為了方便快速理解與驗收，系統資料庫 (`database.json`) 已預先載入以下帳號與遊戲資料。您可以直接使用這些帳號登入，無需重新註冊。
-
-### 1. 預設帳號
-
-| Role (身份) | Username (帳號) | Password (密碼) | 備註 |
-| :--- | :--- | :--- | :--- |
-| **Developer** | `dev_Erik` | `Erik1024` | 已上架一款 Tic-Tac-Toe 遊戲 |
-| **Player** | `Erik` | `Erik1024` | 已下載並評分過 (5分) |
-| **Player** | `David` | `David1234` | 已下載並評分過 (1分) |
-
-### 2. 預設上架遊戲
-
-* **Game Name**: `Tic-Tac-Toe`
-* **Version**: `1.0`
-* **Current Rating**: `3.0` (由 Erik 的 5 分與 David 的 1 分平均而來)
-* **Downloads**: `2` (Erik 與 David)
-
----
-
 
 ## ⚠️ 注意事項
 
